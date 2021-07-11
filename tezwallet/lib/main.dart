@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tezwallet/screens/landingPage.dart';
 import 'package:tezster_dart/tezster_dart.dart';
+import 'package:tezwallet/screens/splashscreen.dart';
 
 void main() {
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: landingPage()
+      home: splashScreen()
     );
   }
 }
